@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C36769BC-0051-408A-9340-36FC9D1F1DE4"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "88C108EA-ACFF-4E2D-ACAF-7CBEBEC9C2BE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeatherPallavi/ViewModel/ForecastViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "init()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "88C108EA-ACFF-4E2D-ACAF-7CBEBEC9C2BE - 9ed46fecc9e3851e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherPallavi.ForecastViewModel.init() -&gt; WeatherPallavi.ForecastViewModel"
+                  moduleName = "WeatherPallavi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pallaviza/Desktop/WeatherPallavi/WeatherPallavi/ViewModel/ForecastViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "600">
+               </Location>
+               <Location
+                  uuid = "88C108EA-ACFF-4E2D-ACAF-7CBEBEC9C2BE - 179f65d3ea4c9f60"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.CLLocationCoordinate2D) -&gt; () in WeatherPallavi.ForecastViewModel.init() -&gt; WeatherPallavi.ForecastViewModel"
+                  moduleName = "WeatherPallavi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pallaviza/Desktop/WeatherPallavi/WeatherPallavi/ViewModel/ForecastViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12EA6693-FE10-4BAA-B383-964F84F8FFBA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeatherPallavi/ViewModel/ForecastViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "getCurrentLocation()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "12EA6693-FE10-4BAA-B383-964F84F8FFBA - 3f99ccafecd3e9c3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherPallavi.ForecastViewModel.getCurrentLocation() -&gt; PromiseKit.Promise&lt;__C.CLLocationCoordinate2D&gt;"
+                  moduleName = "WeatherPallavi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pallaviza/Desktop/WeatherPallavi/WeatherPallavi/ViewModel/ForecastViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "12EA6693-FE10-4BAA-B383-964F84F8FFBA - 7767ef0cf0d9255f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((__C.CLLocationCoordinate2D) -&gt; (), (Swift.Error) -&gt; ()) -&gt; () in WeatherPallavi.ForecastViewModel.getCurrentLocation() -&gt; PromiseKit.Promise&lt;__C.CLLocationCoordinate2D&gt;"
+                  moduleName = "WeatherPallavi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pallaviza/Desktop/WeatherPallavi/WeatherPallavi/ViewModel/ForecastViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

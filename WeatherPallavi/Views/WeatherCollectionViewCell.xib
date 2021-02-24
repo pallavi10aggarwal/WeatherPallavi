@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="WeatherCollectionViewCell" id="8TA-4G-biN" customClass="WeatherCollectionViewCell" customModule="WeatherTron" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10℃" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nde-Ac-UXX">
+                        <rect key="frame" x="0.0" y="37.5" width="60" height="17.5"/>
+                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rain" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVw-Qf-EeE">
+                        <rect key="frame" x="0.0" y="5" width="60" height="17.5"/>
+                        <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="PPW-uv-5Ia"/>
+            <color key="backgroundColor" red="0.6860351562" green="0.66824001740000005" blue="0.96885850689999997" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="Nde-Ac-UXX" firstAttribute="leading" secondItem="8TA-4G-biN" secondAttribute="leading" id="48i-DC-2Ia"/>
+                <constraint firstAttribute="trailing" secondItem="eVw-Qf-EeE" secondAttribute="trailing" id="FnM-3p-rkk"/>
+                <constraint firstItem="eVw-Qf-EeE" firstAttribute="top" secondItem="8TA-4G-biN" secondAttribute="top" constant="5" id="QYA-PV-vkV"/>
+                <constraint firstItem="eVw-Qf-EeE" firstAttribute="leading" secondItem="8TA-4G-biN" secondAttribute="leading" id="Qg7-Dd-Tz7"/>
+                <constraint firstAttribute="bottom" secondItem="Nde-Ac-UXX" secondAttribute="bottom" constant="5" id="Tfx-nr-sXm"/>
+                <constraint firstAttribute="trailing" secondItem="Nde-Ac-UXX" secondAttribute="trailing" id="mTN-86-tGE"/>
+            </constraints>
+            <size key="customSize" width="149" height="122"/>
+            <connections>
+                <outlet property="temperatureLabel" destination="Nde-Ac-UXX" id="jZt-HQ-8AN"/>
+                <outlet property="weatherConditionLabel" destination="eVw-Qf-EeE" id="338-gt-wlD"/>
+            </connections>
+            <point key="canvasLocation" x="19" y="-74"/>
+        </collectionViewCell>
+    </objects>
+</document>

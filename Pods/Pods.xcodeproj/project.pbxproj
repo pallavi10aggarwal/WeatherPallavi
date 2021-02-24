@@ -1,0 +1,1523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C101BB5B71CA1B24DE64756F5B82D8 /* JGProgressHUDIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 921A47072ED028C39F25ACCA2C56FE5D /* JGProgressHUDIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		023811621155C9FF1D8C8C2D2AF00FA6 /* CLGeocoder+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B915365695DAB226A8F62BC0789342AF /* CLGeocoder+Promise.swift */; };
+		040AD92907B972B42FFD4B6174887B34 /* JGProgressHUDFadeZoomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B509B32CBE0263ACC63F25BD805A53 /* JGProgressHUDFadeZoomAnimation.m */; };
+		083B5CFA58A3339BDF6D6DC3A0507DEA /* JGProgressHUDAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = AA22ADF48682731AE6A81EBE38DA08E2 /* JGProgressHUDAnimation.m */; };
+		0894A91005564736A40E3443FFDE0C03 /* PMKFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = CCF7FB823512721E75F2DB336028FE47 /* PMKFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B9C0E5300270BEBCCA5BBE39E754D34 /* afterlife.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E0181724ABC42C1DCD20DBBD2A120C /* afterlife.swift */; };
+		0DCCE84DF2E5C1E8ED3903A04E476D8D /* JGProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F49ECE4CE5F7786FDB1B33C6FAA8EC01 /* JGProgressHUD.m */; };
+		113361ACAC68E7E0CCF3C9AC1A2DB9C8 /* join.m in Sources */ = {isa = PBXBuildFile; fileRef = 04029ED716CF8E889DAA87B847575C8A /* join.m */; };
+		120AA6606DA0041C6858E35C27D4E841 /* CLGeocoder+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 497428C1D123D13EA523160C54C13969 /* CLGeocoder+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18CF94C361B05399BC6E83328DFF96DF /* JGProgressHUDSuccessIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D4AEF9884F0E5E84C9934A37A4415A /* JGProgressHUDSuccessIndicatorView.m */; };
+		1AD81CEEA74A4569C96C499D6FCDE926 /* AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E2C5ED3D6E4CD1A1E71815880534412 /* AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B04E258B87F8D16FB039A117CA40B37 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C9FDF83965AD6B71319F91C28FD4E9 /* Error.swift */; };
+		1BEF049684E762255F32BF246A6BE072 /* dispatch_promise.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497898C6087EF2E99D0C961DBD57E4E /* dispatch_promise.m */; };
+		1CF39BA6159B5B76B5DD55734EDCFEC2 /* UIView+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = D8BCE50D4B237F82717F1E9FF4421204 /* UIView+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		213AAC8DC815259BC83713C84C41780B /* UIViewController+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBC658D636D59609E2D4700CC742BE4 /* UIViewController+AnyPromise.m */; };
+		23B41AD3E999B51554844F8D70B500F9 /* Pods-WeatherPallavi-WeatherPallaviUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D25E0792E8293BC3F0AE1A2CF059974 /* Pods-WeatherPallavi-WeatherPallaviUITests-dummy.m */; };
+		24169FDEFD40E49B7454341FBB456312 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3120C7EEF8EA3E9CA13457EBBE15EE /* Foundation.framework */; };
+		24E08445DAE4E8D543F395D4A0E081A2 /* AnyPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C409547C41BB27C18B7702083BD98AB /* AnyPromise.swift */; };
+		2834DA992389D0AFB77DAC86AC0CA540 /* JGProgressHUDShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = C05C2353313185DEC77BC3D47639DD8F /* JGProgressHUDShadow.m */; };
+		29B5DA04B6A38DF3D46E2DE5E8D06498 /* PromiseKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDC278043CFBC266737A62F15BC71EED /* PromiseKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ED82E92E90AF06D89A79D9E879C0AF9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF58254DBA0B4649314033113F14988 /* QuartzCore.framework */; };
+		33E9E0ED94A4081E696295F83DD2D9C7 /* JGProgressHUDErrorIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3844E712CBDF9E989A50D6A92440DF /* JGProgressHUDErrorIndicatorView.m */; };
+		39AD838C6621D6E4C37506858FC04231 /* CALayer+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E8298D5B33CA59405FCB009E08C06B /* CALayer+AnyPromise.m */; };
+		3E0C4F6D8D56877A15152AC592943F8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3120C7EEF8EA3E9CA13457EBBE15EE /* Foundation.framework */; };
+		3EB1E8171A8E2E15A7B0AFF2095210F7 /* JGProgressHUDImageIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB536EF6B00FDE7EF1BF076FA5594B4 /* JGProgressHUDImageIndicatorView.m */; };
+		3F36F3C6F3609D035418F59382B8CA49 /* NSNotificationCenter+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 735AC6A0D0E2D963B2BBF7D4D5144E4B /* NSNotificationCenter+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B5147E79EE68FD189494DD609B57F31 /* JGProgressHUDAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0157C2726D7A356781F72440C0949D73 /* JGProgressHUDAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E09E5CF35918825CC74DDADAD4C8EBB /* CLLocationManager+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6F746AC07F2DFB3DAA539BBA50EC97 /* CLLocationManager+Promise.swift */; };
+		50A5FD1873434C8D7CD17C68E8F87A1E /* NSNotificationCenter+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EAEE68B18FFE95C5E0105F42FD2F2F3 /* NSNotificationCenter+AnyPromise.m */; };
+		50B52DB98967698D466A6C23F28A0C03 /* NSURLSession+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = E1ECDAF1BE9E9C2AB10D552B80041A7F /* NSURLSession+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		515F81B04F69C306053F5C827D2A22D4 /* JGProgressHUDIndeterminateIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ABC33BCBC0A161618570B441A00C176 /* JGProgressHUDIndeterminateIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51934A2EE0D59BD7B22DED2D877A49D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3120C7EEF8EA3E9CA13457EBBE15EE /* Foundation.framework */; };
+		53C535F529E44B1ABDF49FC3B524FCF6 /* Pods-WeatherPallavi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F5C73583B05848B4B9615BD33C7549 /* Pods-WeatherPallavi-dummy.m */; };
+		54EB149588EE20BDDB243B520A664FB8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF58254DBA0B4649314033113F14988 /* QuartzCore.framework */; };
+		5840089C00D06322174F9A3DD983AA6B /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BE99C796BC955C88AE3A4000AB323B /* State.swift */; };
+		59CB3164A00F2B801BE515A55489366A /* PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 169463F3002BA8CFF674303AC2572994 /* PromiseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C78BE7864470C1E2BA20C5CBD81B9D7 /* JGProgressHUDIndeterminateIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC27E7F5FB1119E8F122176C76A987A /* JGProgressHUDIndeterminateIndicatorView.m */; };
+		5E26C4C171533BC2F7521D2392A4363F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D53ABE6312F4DA48FD092939F81308E /* UIKit.framework */; };
+		5EC611C8B9CFFA9BE7FDC15EBA2D93FA /* CLLocationManager+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDD6A55F905F3B949942BE61F2EDB87 /* CLLocationManager+AnyPromise.m */; };
+		610173D608B5BC5B43ED59573196420D /* Pods-WeatherPallavi-WeatherPallaviUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8438F46F2887099FA00E3800C491CC2E /* Pods-WeatherPallavi-WeatherPallaviUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		635A531DD9EAD798E4A786BD15DCB521 /* NSTask+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DF488D83053A54BAC3C50F901C858ED /* NSTask+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65C85777E0E2A5C97D60B74590ECE455 /* CLGeocoder+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = C559D4CA720E1C2CDEB9783DDF9C18A8 /* CLGeocoder+AnyPromise.m */; };
+		66BF69DE479094C35B54BB00B2181F59 /* when.m in Sources */ = {isa = PBXBuildFile; fileRef = 923CC02698859B62129B79E48E9B6CCD /* when.m */; };
+		66D18944E57602765B6571B0BFC9630F /* JGProgressHUD-Defines.h in Headers */ = {isa = PBXBuildFile; fileRef = 9781ABAF88364EF6706BBCC7DA797211 /* JGProgressHUD-Defines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ACEE8D9E8777C70A24DBDDDF1EC1D84 /* PromiseKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2CC0EEEDE50967302E28634C6E07F3 /* PromiseKit-dummy.m */; };
+		6BD904AFF251CC5DB707C22326E4D91E /* Promise+AnyPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF35A5E97A17FD0BA65BDB965AD1A2C /* Promise+AnyPromise.swift */; };
+		76BE1602EE79AEEE05B68F6E4855BBDC /* Process+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C21368EF840BAF5DE98D975CC27227A /* Process+Promise.swift */; };
+		784B9ED449B3D447C7D6A8DB82F6B5C1 /* JGProgressHUDFadeZoomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = AB4DEA42600670FACF7370E8D2D42C22 /* JGProgressHUDFadeZoomAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		812150E28251B383E29ADE04BC481D44 /* JGProgressHUDRingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB61E7086D3DF82F4EF20F944DCB141 /* JGProgressHUDRingIndicatorView.m */; };
+		8A676CA3F3847BAAF2FB6493AB89701E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB935D5AE7E7D7DCE8B924DBC99A759 /* CoreLocation.framework */; };
+		8E2CB0ED9A07AE57055399DEDBC27B87 /* JGProgressHUDFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F62D1E9C4719646662AE94BA2993950 /* JGProgressHUDFadeAnimation.m */; };
+		91A233B6293C8E800EB68749A548D733 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D53ABE6312F4DA48FD092939F81308E /* UIKit.framework */; };
+		91B644E5A5CC720A4D311EEFF48E0BD7 /* after.m in Sources */ = {isa = PBXBuildFile; fileRef = A01DE3239FED5E79D2B4505A63552D04 /* after.m */; };
+		96A52E9E3E7064349FFAB2DD7B909CD7 /* Pods-WeatherPallaviTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 624275B1F992CEB4F7EC137109C444C1 /* Pods-WeatherPallaviTests-dummy.m */; };
+		96C369664F04EBEAB41792B9250C6E96 /* JGProgressHUDErrorIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = E8852B79928C147B50763B2984A7439D /* JGProgressHUDErrorIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99A1378F4758867783A9F5F8519CFAFC /* JGProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF38DD7248DA22B20406A83CA442B7D /* JGProgressHUD-dummy.m */; };
+		9BBE1F0E0C8B26D13963F4438718AB46 /* UIViewController+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 49625D5C266DBFDD5A0A0E426974CDD6 /* UIViewController+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E0977765B5F1FC63EDA949D7E15CE04 /* race.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387811AC26DCCEB3C7BEC34C7BECC72C /* race.swift */; };
+		A0128FB8A04711277900964B8220F2D9 /* JGProgressHUDPieIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF87551FD139FDB8860B436FE4346AB /* JGProgressHUDPieIndicatorView.m */; };
+		A3DC8F195C450630179C05F28B3B2BD0 /* NSTask+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 71BE5B74067A168ACBDD6CE265E7F54C /* NSTask+AnyPromise.m */; };
+		A53EC5B959D831EFEF162EBB33886D11 /* CLLocationManager+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = F61EAC48E6A01295B725A44FDA8F443B /* CLLocationManager+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5791057A5A9AA24E09BB370C7495F5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3120C7EEF8EA3E9CA13457EBBE15EE /* Foundation.framework */; };
+		A5B8DA90893EAE4E3C805B684A53182E /* JGProgressHUDIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4277C8C87460E4CC799851D86A49E017 /* JGProgressHUDIndicatorView.m */; };
+		AC398F106EB052640E4E6E3678A7AE27 /* DispatchQueue+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69F73C2072AE5CF3DA885344D10F638 /* DispatchQueue+Promise.swift */; };
+		ADA198C3D2C208F0D5BBBF072DFEC584 /* JGProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF94AFAFC9C8073F76B40271EE02B28 /* JGProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1228302CD5D1FC4078A56071FB63BE7 /* Promise+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE22335F8B5915A940E1FE29AE3DAFD9 /* Promise+Properties.swift */; };
+		B3CAE09894CFA04774A8E628D59ADB58 /* join.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C66383E7E762BF1EED35797FA32BAE /* join.swift */; };
+		B7D2C4E62795E6F9A09E2CD7C388C008 /* PMKCoreLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A12684B28787AB3A317198B5742AF67 /* PMKCoreLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBEAC69F4BA3524C57596AD8A44E182C /* UIView+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF68AD83D31ED082E0085C3E130DAE3 /* UIView+Promise.swift */; };
+		BDDB8F468C3EA4A4E63CEEFD50E02793 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3120C7EEF8EA3E9CA13457EBBE15EE /* Foundation.framework */; };
+		BE98AD8BAF63F6688828ECDE0FC4325B /* JGProgressHUDImageIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = F88ECC5667AD5ABB4B847051B5882715 /* JGProgressHUDImageIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0E8713CF93AECD0B000D55FAE752345 /* NSObject+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1980AA0FC40877A5A2E5447AA322C4ED /* NSObject+Promise.swift */; };
+		C169504EDF56EBD6D3A797E3C2E2E473 /* JGProgressHUDPieIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = C637CD5857DBCAC63CFB4BD1B2C04536 /* JGProgressHUDPieIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3F2D9A7AA50BEB84AA419E9DD13A144 /* UIViewController+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = E178EE8B6AFD179C1A9CB0C4E0A6A388 /* UIViewController+Promise.swift */; };
+		C500368968CD816CA6020C743810C51E /* PMKUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F4F9F962D167B398115D39E5D7304D /* PMKUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA343F72E2F6A79D393FC28F3035B14C /* JGProgressHUDRingIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C016FF3EF8F158B9BEC54E065BDAF0 /* JGProgressHUDRingIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB3CFA1573B0FD975141C63783D426A8 /* PMKQuartzCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C498503D1E23137FC251F1BF5846A62 /* PMKQuartzCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB4C8D5C86ACF441DAD945D8F14AFA62 /* UIView+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = B09FF88A0A220D8D50142C8DC82288FA /* UIView+AnyPromise.m */; };
+		D078BE56C74F21151D8B532998B766DD /* wrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCDC681BE3421C56E71252F17E7E75C /* wrap.swift */; };
+		D2D8C810A03BF6DD4EFE93D104DC63C6 /* fwd.h in Headers */ = {isa = PBXBuildFile; fileRef = B64DC22EE67AEEE33A407ABF3F3DFD5B /* fwd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D57EB484EEF7DDBFE73BB8FD3F2F6BDC /* JGProgressHUDSuccessIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = A18273B17A5BA23D6B8E95C189A2EEB1 /* JGProgressHUDSuccessIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5EAABD186A943AB72CFEA056DEF1649 /* Pods-WeatherPallavi-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7394F5DB4216E1F71E8ECA29F33773 /* Pods-WeatherPallavi-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7199DBCFCCA20BABF785D93143D89D2 /* CALayer+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B1A9DFE85E223F690BE8CF4D0775624 /* CALayer+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9D38E286DCEC87D05BA9ACB3D20EF4C /* PMKAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E735A35BE46B4C20A25FFF29AF89AEA3 /* PMKAlertController.swift */; };
+		DC7A5DF73CBF05B8F9248D0EDC24354D /* GlobalState.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6C2602DEB92AFF3A6BD0838DB453F2 /* GlobalState.m */; };
+		DE19FFA7DE260414BA537667EA88E262 /* after.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E48EFC12A90A0D83340BA3BA4375AF7 /* after.swift */; };
+		E7AEE1B06F0C80CD8D41A337BCA7F0ED /* URLDataPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14054B47B99992BAB5BC16B8CD984863 /* URLDataPromise.swift */; };
+		F126C1C36EB93C1EAC21BC68F4941E95 /* NSURLSession+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 14665E78D0DA1F9FB8E3361F5CA29C5C /* NSURLSession+AnyPromise.m */; };
+		F17207DAC4954DBD2562CD573E41A79D /* hang.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCA032A8B935B60ACC4565F1E32F4B6 /* hang.m */; };
+		F5B406F0A6E0392B5F51A59D88C594DA /* JGProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 876733EE6E97521CD357C55AB9BA32A2 /* JGProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F63F53EF46490E923E21807BBE11D049 /* Pods-WeatherPallaviTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77C42EF5194FC1D00E46D3637BB3AB4F /* Pods-WeatherPallaviTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F73DCE372A37682AE33702CC0EC47EC7 /* NSNotificationCenter+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4065CD182706D60987DDCF6BEE1516C /* NSNotificationCenter+Promise.swift */; };
+		F83723922F84532963E0726C1E4FAE6F /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029CEE01381D8A4D4114AE95A0398587 /* Promise.swift */; };
+		F8FF83A2A080FBF9CF167C5B16A4CA9C /* Zalgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED4AB234B77EF1683465ABEB210E401 /* Zalgo.swift */; };
+		FB2AC73B1959D3D8085118F0A1C618DB /* AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B034902CBD567F477973A9197C314F /* AnyPromise.m */; };
+		FB7D6EA6C6016E2AFDA2F2A407DCF746 /* JGProgressHUDFadeAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E45DAC2694A20F743D7F158E77BF9AA5 /* JGProgressHUDFadeAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC7A80288ED7128A94FD3D27F8FF73EE /* JGProgressHUDShadow.h in Headers */ = {isa = PBXBuildFile; fileRef = BA4BC1DEB2D10CC6A7F3087FDB712A10 /* JGProgressHUDShadow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF0AE275F6867F2AEB7D16ECBD567984 /* NSURLSession+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C376D3AACEC44B0DD39D043E1AF4517 /* NSURLSession+Promise.swift */; };
+		FF3A0F37DC38E002BB64FBE17F9A23AE /* when.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16399DEB32EA8EB658891BA5B3C14C5F /* when.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77936164431C01261DB33BCFDCA973E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83A9D254A201DF35F6884535A97151BF;
+			remoteInfo = "Pods-WeatherPallavi";
+		};
+		A80C1E9C8695AD7F7D9FC2EBFB6B03E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F3964F174D0EBFB0D64F8DBC20E1429;
+			remoteInfo = JGProgressHUD;
+		};
+		B8D391D489FD7E816F663DB28F2707D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F3964F174D0EBFB0D64F8DBC20E1429;
+			remoteInfo = JGProgressHUD;
+		};
+		D275C4B99349067B93F2D0D3C10C2AF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C579CE66A1E7A9AA33CA5F97F9C22C5;
+			remoteInfo = PromiseKit;
+		};
+		E59089EE4D7CE7C3ADF542431514CDE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C579CE66A1E7A9AA33CA5F97F9C22C5;
+			remoteInfo = PromiseKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002B1E88BA14EBF633CD66EBFBA107E9 /* PromiseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PromiseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0157C2726D7A356781F72440C0949D73 /* JGProgressHUDAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDAnimation.h; path = JGProgressHUD/JGProgressHUD/include/JGProgressHUDAnimation.h; sourceTree = "<group>"; };
+		029CEE01381D8A4D4114AE95A0398587 /* Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Promise.swift; path = Sources/Promise.swift; sourceTree = "<group>"; };
+		04029ED716CF8E889DAA87B847575C8A /* join.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = join.m; path = Sources/join.m; sourceTree = "<group>"; };
+		0952999558101F0308BF5B9DAEE9EAA3 /* Pods-WeatherPallavi-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeatherPallavi-frameworks.sh"; sourceTree = "<group>"; };
+		0BF87551FD139FDB8860B436FE4346AB /* JGProgressHUDPieIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDPieIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDPieIndicatorView.m; sourceTree = "<group>"; };
+		0CBF7299234400B99808DCEB5B4EB376 /* Pods-WeatherPallaviTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherPallaviTests.release.xcconfig"; sourceTree = "<group>"; };
+		0EAEE68B18FFE95C5E0105F42FD2F2F3 /* NSNotificationCenter+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.m"; sourceTree = "<group>"; };
+		0F6F746AC07F2DFB3DAA539BBA50EC97 /* CLLocationManager+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CLLocationManager+Promise.swift"; path = "Extensions/CoreLocation/Sources/CLLocationManager+Promise.swift"; sourceTree = "<group>"; };
+		10D4AEF9884F0E5E84C9934A37A4415A /* JGProgressHUDSuccessIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDSuccessIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDSuccessIndicatorView.m; sourceTree = "<group>"; };
+		14054B47B99992BAB5BC16B8CD984863 /* URLDataPromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLDataPromise.swift; path = Extensions/Foundation/Sources/URLDataPromise.swift; sourceTree = "<group>"; };
+		14665E78D0DA1F9FB8E3361F5CA29C5C /* NSURLSession+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLSession+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSURLSession+AnyPromise.m"; sourceTree = "<group>"; };
+		16399DEB32EA8EB658891BA5B3C14C5F /* when.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = when.swift; path = Sources/when.swift; sourceTree = "<group>"; };
+		169463F3002BA8CFF674303AC2572994 /* PromiseKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PromiseKit.h; path = Sources/PromiseKit.h; sourceTree = "<group>"; };
+		16C66383E7E762BF1EED35797FA32BAE /* join.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = join.swift; path = Sources/join.swift; sourceTree = "<group>"; };
+		18B034902CBD567F477973A9197C314F /* AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AnyPromise.m; path = Sources/AnyPromise.m; sourceTree = "<group>"; };
+		1980AA0FC40877A5A2E5447AA322C4ED /* NSObject+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Promise.swift"; path = "Extensions/Foundation/Sources/NSObject+Promise.swift"; sourceTree = "<group>"; };
+		1BBC658D636D59609E2D4700CC742BE4 /* UIViewController+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+AnyPromise.m"; path = "Extensions/UIKit/Sources/UIViewController+AnyPromise.m"; sourceTree = "<group>"; };
+		1C21368EF840BAF5DE98D975CC27227A /* Process+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Process+Promise.swift"; path = "Extensions/Foundation/Sources/Process+Promise.swift"; sourceTree = "<group>"; };
+		1C498503D1E23137FC251F1BF5846A62 /* PMKQuartzCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKQuartzCore.h; path = Extensions/QuartzCore/Sources/PMKQuartzCore.h; sourceTree = "<group>"; };
+		1F62D1E9C4719646662AE94BA2993950 /* JGProgressHUDFadeAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDFadeAnimation.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDFadeAnimation.m; sourceTree = "<group>"; };
+		27C9FDF83965AD6B71319F91C28FD4E9 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/Error.swift; sourceTree = "<group>"; };
+		2A12684B28787AB3A317198B5742AF67 /* PMKCoreLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKCoreLocation.h; path = Extensions/CoreLocation/Sources/PMKCoreLocation.h; sourceTree = "<group>"; };
+		2BBF19E25E039794DCF3AE34C3663AE2 /* Pods-WeatherPallaviTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeatherPallaviTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2E1A29F652980C81CA2A60B0BDEC114C /* Pods_WeatherPallavi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherPallavi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		387811AC26DCCEB3C7BEC34C7BECC72C /* race.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = race.swift; path = Sources/race.swift; sourceTree = "<group>"; };
+		3AAF44C9BE33DABA8F3B5974AFECE56D /* Pods-WeatherPallavi-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherPallavi-acknowledgements.plist"; sourceTree = "<group>"; };
+		3ABC33BCBC0A161618570B441A00C176 /* JGProgressHUDIndeterminateIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDIndeterminateIndicatorView.h; path = JGProgressHUD/JGProgressHUD/include/JGProgressHUDIndeterminateIndicatorView.h; sourceTree = "<group>"; };
+		3B106CCD6777BB613C9756B075DB7EC2 /* JGProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JGProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
+		3BC27E7F5FB1119E8F122176C76A987A /* JGProgressHUDIndeterminateIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDIndeterminateIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDIndeterminateIndicatorView.m; sourceTree = "<group>"; };
+		3BDD6A55F905F3B949942BE61F2EDB87 /* CLLocationManager+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CLLocationManager+AnyPromise.m"; path = "Extensions/CoreLocation/Sources/CLLocationManager+AnyPromise.m"; sourceTree = "<group>"; };
+		3EA3E9DA0C544248908F41970FD4E076 /* Pods-WeatherPallaviTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherPallaviTests-Info.plist"; sourceTree = "<group>"; };
+		3FC9B82F62999475D569AEA0758BD2C5 /* JGProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JGProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		4277C8C87460E4CC799851D86A49E017 /* JGProgressHUDIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDIndicatorView.m; sourceTree = "<group>"; };
+		42C016FF3EF8F158B9BEC54E065BDAF0 /* JGProgressHUDRingIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDRingIndicatorView.h; path = JGProgressHUD/JGProgressHUD/include/JGProgressHUDRingIndicatorView.h; sourceTree = "<group>"; };
+		45ED25113D7E7F38511C869A88B3C873 /* Pods-WeatherPallavi-WeatherPallaviUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeatherPallavi-WeatherPallaviUITests-frameworks.sh"; sourceTree = "<group>"; };
+		45F4F9F962D167B398115D39E5D7304D /* PMKUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKUIKit.h; path = Extensions/UIKit/Sources/PMKUIKit.h; sourceTree = "<group>"; };
+		49625D5C266DBFDD5A0A0E426974CDD6 /* UIViewController+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+AnyPromise.h"; path = "Extensions/UIKit/Sources/UIViewController+AnyPromise.h"; sourceTree = "<group>"; };
+		497428C1D123D13EA523160C54C13969 /* CLGeocoder+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CLGeocoder+AnyPromise.h"; path = "Extensions/CoreLocation/Sources/CLGeocoder+AnyPromise.h"; sourceTree = "<group>"; };
+		4C409547C41BB27C18B7702083BD98AB /* AnyPromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyPromise.swift; path = Sources/AnyPromise.swift; sourceTree = "<group>"; };
+		4FCDC681BE3421C56E71252F17E7E75C /* wrap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = wrap.swift; path = Sources/wrap.swift; sourceTree = "<group>"; };
+		500C12C77C44E01FA72C032C1BA116B4 /* Pods_WeatherPallaviTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherPallaviTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51D2E5C1A654CB6509FA1CD77702D949 /* Pods_WeatherPallavi_WeatherPallaviUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherPallavi_WeatherPallaviUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55F5C73583B05848B4B9615BD33C7549 /* Pods-WeatherPallavi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeatherPallavi-dummy.m"; sourceTree = "<group>"; };
+		5B3120C7EEF8EA3E9CA13457EBBE15EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5BF35A5E97A17FD0BA65BDB965AD1A2C /* Promise+AnyPromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+AnyPromise.swift"; path = "Sources/Promise+AnyPromise.swift"; sourceTree = "<group>"; };
+		5DF488D83053A54BAC3C50F901C858ED /* NSTask+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTask+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSTask+AnyPromise.h"; sourceTree = "<group>"; };
+		5E2C5ED3D6E4CD1A1E71815880534412 /* AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AnyPromise.h; path = Sources/AnyPromise.h; sourceTree = "<group>"; };
+		624275B1F992CEB4F7EC137109C444C1 /* Pods-WeatherPallaviTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeatherPallaviTests-dummy.m"; sourceTree = "<group>"; };
+		664632ADDF8ADD8C59EDEF1A4E4146F8 /* JGProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JGProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		68B994EEE6676A805E05CCD86EA3B7B1 /* Pods-WeatherPallavi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherPallavi.debug.xcconfig"; sourceTree = "<group>"; };
+		6B1A9DFE85E223F690BE8CF4D0775624 /* CALayer+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+AnyPromise.h"; path = "Extensions/QuartzCore/Sources/CALayer+AnyPromise.h"; sourceTree = "<group>"; };
+		6B5C78F095E49E728841053A9D9417EF /* Pods-WeatherPallavi-WeatherPallaviUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WeatherPallavi-WeatherPallaviUITests.modulemap"; sourceTree = "<group>"; };
+		6E48EFC12A90A0D83340BA3BA4375AF7 /* after.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = after.swift; path = Sources/after.swift; sourceTree = "<group>"; };
+		6E7394F5DB4216E1F71E8ECA29F33773 /* Pods-WeatherPallavi-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeatherPallavi-umbrella.h"; sourceTree = "<group>"; };
+		70B509B32CBE0263ACC63F25BD805A53 /* JGProgressHUDFadeZoomAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDFadeZoomAnimation.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDFadeZoomAnimation.m; sourceTree = "<group>"; };
+		71BE5B74067A168ACBDD6CE265E7F54C /* NSTask+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTask+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSTask+AnyPromise.m"; sourceTree = "<group>"; };
+		721211366C899179164D5DAFDBFE3DA9 /* Pods-WeatherPallavi-WeatherPallaviUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeatherPallavi-WeatherPallaviUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		735AC6A0D0E2D963B2BBF7D4D5144E4B /* NSNotificationCenter+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.h"; sourceTree = "<group>"; };
+		7730A954A4C8CC9AF493AE709885C8AF /* JGProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JGProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		77C42EF5194FC1D00E46D3637BB3AB4F /* Pods-WeatherPallaviTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeatherPallaviTests-umbrella.h"; sourceTree = "<group>"; };
+		7D25E0792E8293BC3F0AE1A2CF059974 /* Pods-WeatherPallavi-WeatherPallaviUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeatherPallavi-WeatherPallaviUITests-dummy.m"; sourceTree = "<group>"; };
+		7D53ABE6312F4DA48FD092939F81308E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7E3844E712CBDF9E989A50D6A92440DF /* JGProgressHUDErrorIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDErrorIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDErrorIndicatorView.m; sourceTree = "<group>"; };
+		7F6C2602DEB92AFF3A6BD0838DB453F2 /* GlobalState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GlobalState.m; path = Sources/GlobalState.m; sourceTree = "<group>"; };
+		7FBAFAA66E9C7401884F439AE8BC662C /* JGProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JGProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8438F46F2887099FA00E3800C491CC2E /* Pods-WeatherPallavi-WeatherPallaviUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeatherPallavi-WeatherPallaviUITests-umbrella.h"; sourceTree = "<group>"; };
+		8497898C6087EF2E99D0C961DBD57E4E /* dispatch_promise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = dispatch_promise.m; path = Sources/dispatch_promise.m; sourceTree = "<group>"; };
+		876733EE6E97521CD357C55AB9BA32A2 /* JGProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUD.h; path = JGProgressHUD/JGProgressHUD/include/JGProgressHUD.h; sourceTree = "<group>"; };
+		87839BA5CAA3D71F366EDE35A21A2DED /* Pods-WeatherPallavi-WeatherPallaviUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherPallavi-WeatherPallaviUITests-Info.plist"; sourceTree = "<group>"; };
+		8C376D3AACEC44B0DD39D043E1AF4517 /* NSURLSession+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLSession+Promise.swift"; path = "Extensions/Foundation/Sources/NSURLSession+Promise.swift"; sourceTree = "<group>"; };
+		8E2869245F6A1FD4A7DF5BD8FA4789E3 /* Pods-WeatherPallaviTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherPallaviTests.debug.xcconfig"; sourceTree = "<group>"; };
+		921A47072ED028C39F25ACCA2C56FE5D /* JGProgressHUDIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDIndicatorView.h; path = JGProgressHUD/JGProgressHUD/include/JGProgressHUDIndicatorView.h; sourceTree = "<group>"; };
+		923CC02698859B62129B79E48E9B6CCD /* when.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = when.m; path = Sources/when.m; sourceTree = "<group>"; };
+		9362601E85455DD57FEC76840FAB5060 /* Pods-WeatherPallavi-WeatherPallaviUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherPallavi-WeatherPallaviUITests.release.xcconfig"; sourceTree = "<group>"; };
+		93EA523F4C8611C76731B3D4B4A0EC5B /* Pods-WeatherPallavi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherPallavi.release.xcconfig"; sourceTree = "<group>"; };
+		95E8298D5B33CA59405FCB009E08C06B /* CALayer+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+AnyPromise.m"; path = "Extensions/QuartzCore/Sources/CALayer+AnyPromise.m"; sourceTree = "<group>"; };
+		9781ABAF88364EF6706BBCC7DA797211 /* JGProgressHUD-Defines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JGProgressHUD-Defines.h"; path = "JGProgressHUD/JGProgressHUD/include/JGProgressHUD-Defines.h"; sourceTree = "<group>"; };
+		97C710AF738EBBDF33F5DF721C84F59C /* Pods-WeatherPallaviTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WeatherPallaviTests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A01DE3239FED5E79D2B4505A63552D04 /* after.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = after.m; path = Sources/after.m; sourceTree = "<group>"; };
+		A18273B17A5BA23D6B8E95C189A2EEB1 /* JGProgressHUDSuccessIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDSuccessIndicatorView.h; path = JGProgressHUD/JGProgressHUD/include/JGProgressHUDSuccessIndicatorView.h; sourceTree = "<group>"; };
+		A76B04325DC0EB72D29E4012F3059298 /* PromiseKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromiseKit.release.xcconfig; sourceTree = "<group>"; };
+		A7861D5D0DD0D7C00C5421535622EFC0 /* JGProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JGProgressHUD.modulemap; sourceTree = "<group>"; };
+		AA22ADF48682731AE6A81EBE38DA08E2 /* JGProgressHUDAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDAnimation.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDAnimation.m; sourceTree = "<group>"; };
+		AB4DEA42600670FACF7370E8D2D42C22 /* JGProgressHUDFadeZoomAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDFadeZoomAnimation.h; path = JGProgressHUD/JGProgressHUD/include/JGProgressHUDFadeZoomAnimation.h; sourceTree = "<group>"; };
+		AD3581E51057AA24D60213B1106C2984 /* PromiseKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PromiseKit.modulemap; sourceTree = "<group>"; };
+		B09FF88A0A220D8D50142C8DC82288FA /* UIView+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+AnyPromise.m"; path = "Extensions/UIKit/Sources/UIView+AnyPromise.m"; sourceTree = "<group>"; };
+		B64DC22EE67AEEE33A407ABF3F3DFD5B /* fwd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fwd.h; path = Sources/fwd.h; sourceTree = "<group>"; };
+		B915365695DAB226A8F62BC0789342AF /* CLGeocoder+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CLGeocoder+Promise.swift"; path = "Extensions/CoreLocation/Sources/CLGeocoder+Promise.swift"; sourceTree = "<group>"; };
+		BA07D68B53B21C6BCF35BCFB23556758 /* Pods-WeatherPallavi-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeatherPallavi-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA4BC1DEB2D10CC6A7F3087FDB712A10 /* JGProgressHUDShadow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDShadow.h; path = JGProgressHUD/JGProgressHUD/include/JGProgressHUDShadow.h; sourceTree = "<group>"; };
+		BB9095CBFF0F9B73F2D3E8A8732A3CBC /* PromiseKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromiseKit.debug.xcconfig; sourceTree = "<group>"; };
+		BC2CC0EEEDE50967302E28634C6E07F3 /* PromiseKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PromiseKit-dummy.m"; sourceTree = "<group>"; };
+		BDCA032A8B935B60ACC4565F1E32F4B6 /* hang.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = hang.m; path = Sources/hang.m; sourceTree = "<group>"; };
+		BEB14AA9AB4265B5CA149A69FDF754FF /* Pods-WeatherPallavi-WeatherPallaviUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeatherPallavi-WeatherPallaviUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C05C2353313185DEC77BC3D47639DD8F /* JGProgressHUDShadow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDShadow.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDShadow.m; sourceTree = "<group>"; };
+		C559D4CA720E1C2CDEB9783DDF9C18A8 /* CLGeocoder+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CLGeocoder+AnyPromise.m"; path = "Extensions/CoreLocation/Sources/CLGeocoder+AnyPromise.m"; sourceTree = "<group>"; };
+		C5BE99C796BC955C88AE3A4000AB323B /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = State.swift; path = Sources/State.swift; sourceTree = "<group>"; };
+		C637CD5857DBCAC63CFB4BD1B2C04536 /* JGProgressHUDPieIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDPieIndicatorView.h; path = JGProgressHUD/JGProgressHUD/include/JGProgressHUDPieIndicatorView.h; sourceTree = "<group>"; };
+		C69F73C2072AE5CF3DA885344D10F638 /* DispatchQueue+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Promise.swift"; path = "Sources/DispatchQueue+Promise.swift"; sourceTree = "<group>"; };
+		CAF68AD83D31ED082E0085C3E130DAE3 /* UIView+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Promise.swift"; path = "Extensions/UIKit/Sources/UIView+Promise.swift"; sourceTree = "<group>"; };
+		CB131741803F8FB900244C3118B7F77E /* Pods-WeatherPallaviTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherPallaviTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CCF7FB823512721E75F2DB336028FE47 /* PMKFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKFoundation.h; path = Extensions/Foundation/Sources/PMKFoundation.h; sourceTree = "<group>"; };
+		CDB935D5AE7E7D7DCE8B924DBC99A759 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		CDF94AFAFC9C8073F76B40271EE02B28 /* JGProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JGProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		CF5B1FFF90C50C460914DD7BFE9A7C7C /* Pods-WeatherPallavi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WeatherPallavi.modulemap"; sourceTree = "<group>"; };
+		D32C2B4CF5CDCE167CCB67120D7213CE /* Pods-WeatherPallavi-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherPallavi-Info.plist"; sourceTree = "<group>"; };
+		D4065CD182706D60987DDCF6BEE1516C /* NSNotificationCenter+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSNotificationCenter+Promise.swift"; path = "Extensions/Foundation/Sources/NSNotificationCenter+Promise.swift"; sourceTree = "<group>"; };
+		D8BCE50D4B237F82717F1E9FF4421204 /* UIView+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+AnyPromise.h"; path = "Extensions/UIKit/Sources/UIView+AnyPromise.h"; sourceTree = "<group>"; };
+		D9EFC345A28272F98DE65F23C469ADF5 /* Pods-WeatherPallavi-WeatherPallaviUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeatherPallavi-WeatherPallaviUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA2B7D8C6DA738383D901C19CCCC3A67 /* PromiseKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PromiseKit-Info.plist"; sourceTree = "<group>"; };
+		DAB536EF6B00FDE7EF1BF076FA5594B4 /* JGProgressHUDImageIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDImageIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDImageIndicatorView.m; sourceTree = "<group>"; };
+		DCB61E7086D3DF82F4EF20F944DCB141 /* JGProgressHUDRingIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUDRingIndicatorView.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUDRingIndicatorView.m; sourceTree = "<group>"; };
+		E178EE8B6AFD179C1A9CB0C4E0A6A388 /* UIViewController+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Promise.swift"; path = "Extensions/UIKit/Sources/UIViewController+Promise.swift"; sourceTree = "<group>"; };
+		E1ECDAF1BE9E9C2AB10D552B80041A7F /* NSURLSession+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLSession+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSURLSession+AnyPromise.h"; sourceTree = "<group>"; };
+		E45DAC2694A20F743D7F158E77BF9AA5 /* JGProgressHUDFadeAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDFadeAnimation.h; path = JGProgressHUD/JGProgressHUD/include/JGProgressHUDFadeAnimation.h; sourceTree = "<group>"; };
+		E4E0181724ABC42C1DCD20DBBD2A120C /* afterlife.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = afterlife.swift; path = Extensions/Foundation/Sources/afterlife.swift; sourceTree = "<group>"; };
+		E735A35BE46B4C20A25FFF29AF89AEA3 /* PMKAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PMKAlertController.swift; path = Extensions/UIKit/Sources/PMKAlertController.swift; sourceTree = "<group>"; };
+		E8852B79928C147B50763B2984A7439D /* JGProgressHUDErrorIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDErrorIndicatorView.h; path = JGProgressHUD/JGProgressHUD/include/JGProgressHUDErrorIndicatorView.h; sourceTree = "<group>"; };
+		EBF38DD7248DA22B20406A83CA442B7D /* JGProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JGProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		EBF58254DBA0B4649314033113F14988 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		EDC278043CFBC266737A62F15BC71EED /* PromiseKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromiseKit-umbrella.h"; sourceTree = "<group>"; };
+		F49ECE4CE5F7786FDB1B33C6FAA8EC01 /* JGProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JGProgressHUD.m; path = JGProgressHUD/JGProgressHUD/JGProgressHUD.m; sourceTree = "<group>"; };
+		F61EAC48E6A01295B725A44FDA8F443B /* CLLocationManager+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CLLocationManager+AnyPromise.h"; path = "Extensions/CoreLocation/Sources/CLLocationManager+AnyPromise.h"; sourceTree = "<group>"; };
+		F7891DEAAF3424D37048769D15C1F809 /* PromiseKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromiseKit-prefix.pch"; sourceTree = "<group>"; };
+		F88ECC5667AD5ABB4B847051B5882715 /* JGProgressHUDImageIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JGProgressHUDImageIndicatorView.h; path = JGProgressHUD/JGProgressHUD/include/JGProgressHUDImageIndicatorView.h; sourceTree = "<group>"; };
+		FE22335F8B5915A940E1FE29AE3DAFD9 /* Promise+Properties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Properties.swift"; path = "Sources/Promise+Properties.swift"; sourceTree = "<group>"; };
+		FED4AB234B77EF1683465ABEB210E401 /* Zalgo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Zalgo.swift; path = Sources/Zalgo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AAB5D5C69208F5F66B87DC20566F44C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A676CA3F3847BAAF2FB6493AB89701E /* CoreLocation.framework in Frameworks */,
+				24169FDEFD40E49B7454341FBB456312 /* Foundation.framework in Frameworks */,
+				54EB149588EE20BDDB243B520A664FB8 /* QuartzCore.framework in Frameworks */,
+				5E26C4C171533BC2F7521D2392A4363F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E5AFF22D0ADA09309E18F2879F4ED60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5791057A5A9AA24E09BB370C7495F5D /* Foundation.framework in Frameworks */,
+				2ED82E92E90AF06D89A79D9E879C0AF9 /* QuartzCore.framework in Frameworks */,
+				91A233B6293C8E800EB68749A548D733 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F4C4B4AE9FD4482CD9E00190B4D99C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E0C4F6D8D56877A15152AC592943F8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944A644BC94DFD4F70238E172264C1EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDB8F468C3EA4A4E63CEEFD50E02793 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4827A0284DFA0E4756149F6B20E133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51934A2EE0D59BD7B22DED2D877A49D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28502D6A6A1604C2521FD72B344C60B1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7861D5D0DD0D7C00C5421535622EFC0 /* JGProgressHUD.modulemap */,
+				EBF38DD7248DA22B20406A83CA442B7D /* JGProgressHUD-dummy.m */,
+				7730A954A4C8CC9AF493AE709885C8AF /* JGProgressHUD-Info.plist */,
+				664632ADDF8ADD8C59EDEF1A4E4146F8 /* JGProgressHUD-prefix.pch */,
+				CDF94AFAFC9C8073F76B40271EE02B28 /* JGProgressHUD-umbrella.h */,
+				3B106CCD6777BB613C9756B075DB7EC2 /* JGProgressHUD.debug.xcconfig */,
+				3FC9B82F62999475D569AEA0758BD2C5 /* JGProgressHUD.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JGProgressHUD";
+			sourceTree = "<group>";
+		};
+		3B1E12182751F86D0BE61143101CAC01 /* CorePromise */ = {
+			isa = PBXGroup;
+			children = (
+				A01DE3239FED5E79D2B4505A63552D04 /* after.m */,
+				6E48EFC12A90A0D83340BA3BA4375AF7 /* after.swift */,
+				5E2C5ED3D6E4CD1A1E71815880534412 /* AnyPromise.h */,
+				18B034902CBD567F477973A9197C314F /* AnyPromise.m */,
+				4C409547C41BB27C18B7702083BD98AB /* AnyPromise.swift */,
+				8497898C6087EF2E99D0C961DBD57E4E /* dispatch_promise.m */,
+				C69F73C2072AE5CF3DA885344D10F638 /* DispatchQueue+Promise.swift */,
+				27C9FDF83965AD6B71319F91C28FD4E9 /* Error.swift */,
+				B64DC22EE67AEEE33A407ABF3F3DFD5B /* fwd.h */,
+				7F6C2602DEB92AFF3A6BD0838DB453F2 /* GlobalState.m */,
+				BDCA032A8B935B60ACC4565F1E32F4B6 /* hang.m */,
+				04029ED716CF8E889DAA87B847575C8A /* join.m */,
+				16C66383E7E762BF1EED35797FA32BAE /* join.swift */,
+				029CEE01381D8A4D4114AE95A0398587 /* Promise.swift */,
+				5BF35A5E97A17FD0BA65BDB965AD1A2C /* Promise+AnyPromise.swift */,
+				FE22335F8B5915A940E1FE29AE3DAFD9 /* Promise+Properties.swift */,
+				169463F3002BA8CFF674303AC2572994 /* PromiseKit.h */,
+				387811AC26DCCEB3C7BEC34C7BECC72C /* race.swift */,
+				C5BE99C796BC955C88AE3A4000AB323B /* State.swift */,
+				923CC02698859B62129B79E48E9B6CCD /* when.m */,
+				16399DEB32EA8EB658891BA5B3C14C5F /* when.swift */,
+				4FCDC681BE3421C56E71252F17E7E75C /* wrap.swift */,
+				FED4AB234B77EF1683465ABEB210E401 /* Zalgo.swift */,
+			);
+			name = CorePromise;
+			sourceTree = "<group>";
+		};
+		41F50FB767E0C5FADDA28EB0032358E3 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				E735A35BE46B4C20A25FFF29AF89AEA3 /* PMKAlertController.swift */,
+				45F4F9F962D167B398115D39E5D7304D /* PMKUIKit.h */,
+				D8BCE50D4B237F82717F1E9FF4421204 /* UIView+AnyPromise.h */,
+				B09FF88A0A220D8D50142C8DC82288FA /* UIView+AnyPromise.m */,
+				CAF68AD83D31ED082E0085C3E130DAE3 /* UIView+Promise.swift */,
+				49625D5C266DBFDD5A0A0E426974CDD6 /* UIViewController+AnyPromise.h */,
+				1BBC658D636D59609E2D4700CC742BE4 /* UIViewController+AnyPromise.m */,
+				E178EE8B6AFD179C1A9CB0C4E0A6A388 /* UIViewController+Promise.swift */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		43C57FE7DC63B1B0734BB946E4767A32 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D116A6B9A55E7EB268BDAFDFC31C30C /* Pods-WeatherPallavi */,
+				DD11D990A9782D50FB3138FA7B8B6EE2 /* Pods-WeatherPallavi-WeatherPallaviUITests */,
+				F1D4E8E451E178ECF57B5BB3D59E3BDB /* Pods-WeatherPallaviTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5D116A6B9A55E7EB268BDAFDFC31C30C /* Pods-WeatherPallavi */ = {
+			isa = PBXGroup;
+			children = (
+				CF5B1FFF90C50C460914DD7BFE9A7C7C /* Pods-WeatherPallavi.modulemap */,
+				BA07D68B53B21C6BCF35BCFB23556758 /* Pods-WeatherPallavi-acknowledgements.markdown */,
+				3AAF44C9BE33DABA8F3B5974AFECE56D /* Pods-WeatherPallavi-acknowledgements.plist */,
+				55F5C73583B05848B4B9615BD33C7549 /* Pods-WeatherPallavi-dummy.m */,
+				0952999558101F0308BF5B9DAEE9EAA3 /* Pods-WeatherPallavi-frameworks.sh */,
+				D32C2B4CF5CDCE167CCB67120D7213CE /* Pods-WeatherPallavi-Info.plist */,
+				6E7394F5DB4216E1F71E8ECA29F33773 /* Pods-WeatherPallavi-umbrella.h */,
+				68B994EEE6676A805E05CCD86EA3B7B1 /* Pods-WeatherPallavi.debug.xcconfig */,
+				93EA523F4C8611C76731B3D4B4A0EC5B /* Pods-WeatherPallavi.release.xcconfig */,
+			);
+			name = "Pods-WeatherPallavi";
+			path = "Target Support Files/Pods-WeatherPallavi";
+			sourceTree = "<group>";
+		};
+		6686F20A751E255F06C9C3F463C6066A /* QuartzCore */ = {
+			isa = PBXGroup;
+			children = (
+				6B1A9DFE85E223F690BE8CF4D0775624 /* CALayer+AnyPromise.h */,
+				95E8298D5B33CA59405FCB009E08C06B /* CALayer+AnyPromise.m */,
+				1C498503D1E23137FC251F1BF5846A62 /* PMKQuartzCore.h */,
+			);
+			name = QuartzCore;
+			sourceTree = "<group>";
+		};
+		68B0302FB609998CA061A67DCE2E28F1 /* JGProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				876733EE6E97521CD357C55AB9BA32A2 /* JGProgressHUD.h */,
+				F49ECE4CE5F7786FDB1B33C6FAA8EC01 /* JGProgressHUD.m */,
+				9781ABAF88364EF6706BBCC7DA797211 /* JGProgressHUD-Defines.h */,
+				0157C2726D7A356781F72440C0949D73 /* JGProgressHUDAnimation.h */,
+				AA22ADF48682731AE6A81EBE38DA08E2 /* JGProgressHUDAnimation.m */,
+				E8852B79928C147B50763B2984A7439D /* JGProgressHUDErrorIndicatorView.h */,
+				7E3844E712CBDF9E989A50D6A92440DF /* JGProgressHUDErrorIndicatorView.m */,
+				E45DAC2694A20F743D7F158E77BF9AA5 /* JGProgressHUDFadeAnimation.h */,
+				1F62D1E9C4719646662AE94BA2993950 /* JGProgressHUDFadeAnimation.m */,
+				AB4DEA42600670FACF7370E8D2D42C22 /* JGProgressHUDFadeZoomAnimation.h */,
+				70B509B32CBE0263ACC63F25BD805A53 /* JGProgressHUDFadeZoomAnimation.m */,
+				F88ECC5667AD5ABB4B847051B5882715 /* JGProgressHUDImageIndicatorView.h */,
+				DAB536EF6B00FDE7EF1BF076FA5594B4 /* JGProgressHUDImageIndicatorView.m */,
+				3ABC33BCBC0A161618570B441A00C176 /* JGProgressHUDIndeterminateIndicatorView.h */,
+				3BC27E7F5FB1119E8F122176C76A987A /* JGProgressHUDIndeterminateIndicatorView.m */,
+				921A47072ED028C39F25ACCA2C56FE5D /* JGProgressHUDIndicatorView.h */,
+				4277C8C87460E4CC799851D86A49E017 /* JGProgressHUDIndicatorView.m */,
+				C637CD5857DBCAC63CFB4BD1B2C04536 /* JGProgressHUDPieIndicatorView.h */,
+				0BF87551FD139FDB8860B436FE4346AB /* JGProgressHUDPieIndicatorView.m */,
+				42C016FF3EF8F158B9BEC54E065BDAF0 /* JGProgressHUDRingIndicatorView.h */,
+				DCB61E7086D3DF82F4EF20F944DCB141 /* JGProgressHUDRingIndicatorView.m */,
+				BA4BC1DEB2D10CC6A7F3087FDB712A10 /* JGProgressHUDShadow.h */,
+				C05C2353313185DEC77BC3D47639DD8F /* JGProgressHUDShadow.m */,
+				A18273B17A5BA23D6B8E95C189A2EEB1 /* JGProgressHUDSuccessIndicatorView.h */,
+				10D4AEF9884F0E5E84C9934A37A4415A /* JGProgressHUDSuccessIndicatorView.m */,
+				28502D6A6A1604C2521FD72B344C60B1 /* Support Files */,
+			);
+			path = JGProgressHUD;
+			sourceTree = "<group>";
+		};
+		6E7EEB584DCB75BD9537BD863DD3062C /* PromiseKit */ = {
+			isa = PBXGroup;
+			children = (
+				F780851F4100943E32B856083B94072A /* CoreLocation */,
+				3B1E12182751F86D0BE61143101CAC01 /* CorePromise */,
+				DE7CBD3573C614D3D61C814BDC5CA01D /* Foundation */,
+				6686F20A751E255F06C9C3F463C6066A /* QuartzCore */,
+				88423D4ECFAA2C29061BD51952F473D7 /* Support Files */,
+				41F50FB767E0C5FADDA28EB0032358E3 /* UIKit */,
+			);
+			path = PromiseKit;
+			sourceTree = "<group>";
+		};
+		7211642FF42348C8279480807EBAF630 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CDB935D5AE7E7D7DCE8B924DBC99A759 /* CoreLocation.framework */,
+				5B3120C7EEF8EA3E9CA13457EBBE15EE /* Foundation.framework */,
+				EBF58254DBA0B4649314033113F14988 /* QuartzCore.framework */,
+				7D53ABE6312F4DA48FD092939F81308E /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7E9D3F0CC81D4379FF416694BC2778EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FBAFAA66E9C7401884F439AE8BC662C /* JGProgressHUD.framework */,
+				2E1A29F652980C81CA2A60B0BDEC114C /* Pods_WeatherPallavi.framework */,
+				51D2E5C1A654CB6509FA1CD77702D949 /* Pods_WeatherPallavi_WeatherPallaviUITests.framework */,
+				500C12C77C44E01FA72C032C1BA116B4 /* Pods_WeatherPallaviTests.framework */,
+				002B1E88BA14EBF633CD66EBFBA107E9 /* PromiseKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88423D4ECFAA2C29061BD51952F473D7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD3581E51057AA24D60213B1106C2984 /* PromiseKit.modulemap */,
+				BC2CC0EEEDE50967302E28634C6E07F3 /* PromiseKit-dummy.m */,
+				DA2B7D8C6DA738383D901C19CCCC3A67 /* PromiseKit-Info.plist */,
+				F7891DEAAF3424D37048769D15C1F809 /* PromiseKit-prefix.pch */,
+				EDC278043CFBC266737A62F15BC71EED /* PromiseKit-umbrella.h */,
+				BB9095CBFF0F9B73F2D3E8A8732A3CBC /* PromiseKit.debug.xcconfig */,
+				A76B04325DC0EB72D29E4012F3059298 /* PromiseKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PromiseKit";
+			sourceTree = "<group>";
+		};
+		AF7D615F02A44A6ED917A4710FB2456A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68B0302FB609998CA061A67DCE2E28F1 /* JGProgressHUD */,
+				6E7EEB584DCB75BD9537BD863DD3062C /* PromiseKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7211642FF42348C8279480807EBAF630 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				AF7D615F02A44A6ED917A4710FB2456A /* Pods */,
+				7E9D3F0CC81D4379FF416694BC2778EA /* Products */,
+				43C57FE7DC63B1B0734BB946E4767A32 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DD11D990A9782D50FB3138FA7B8B6EE2 /* Pods-WeatherPallavi-WeatherPallaviUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6B5C78F095E49E728841053A9D9417EF /* Pods-WeatherPallavi-WeatherPallaviUITests.modulemap */,
+				721211366C899179164D5DAFDBFE3DA9 /* Pods-WeatherPallavi-WeatherPallaviUITests-acknowledgements.markdown */,
+				D9EFC345A28272F98DE65F23C469ADF5 /* Pods-WeatherPallavi-WeatherPallaviUITests-acknowledgements.plist */,
+				7D25E0792E8293BC3F0AE1A2CF059974 /* Pods-WeatherPallavi-WeatherPallaviUITests-dummy.m */,
+				45ED25113D7E7F38511C869A88B3C873 /* Pods-WeatherPallavi-WeatherPallaviUITests-frameworks.sh */,
+				87839BA5CAA3D71F366EDE35A21A2DED /* Pods-WeatherPallavi-WeatherPallaviUITests-Info.plist */,
+				8438F46F2887099FA00E3800C491CC2E /* Pods-WeatherPallavi-WeatherPallaviUITests-umbrella.h */,
+				BEB14AA9AB4265B5CA149A69FDF754FF /* Pods-WeatherPallavi-WeatherPallaviUITests.debug.xcconfig */,
+				9362601E85455DD57FEC76840FAB5060 /* Pods-WeatherPallavi-WeatherPallaviUITests.release.xcconfig */,
+			);
+			name = "Pods-WeatherPallavi-WeatherPallaviUITests";
+			path = "Target Support Files/Pods-WeatherPallavi-WeatherPallaviUITests";
+			sourceTree = "<group>";
+		};
+		DE7CBD3573C614D3D61C814BDC5CA01D /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				E4E0181724ABC42C1DCD20DBBD2A120C /* afterlife.swift */,
+				735AC6A0D0E2D963B2BBF7D4D5144E4B /* NSNotificationCenter+AnyPromise.h */,
+				0EAEE68B18FFE95C5E0105F42FD2F2F3 /* NSNotificationCenter+AnyPromise.m */,
+				D4065CD182706D60987DDCF6BEE1516C /* NSNotificationCenter+Promise.swift */,
+				1980AA0FC40877A5A2E5447AA322C4ED /* NSObject+Promise.swift */,
+				5DF488D83053A54BAC3C50F901C858ED /* NSTask+AnyPromise.h */,
+				71BE5B74067A168ACBDD6CE265E7F54C /* NSTask+AnyPromise.m */,
+				E1ECDAF1BE9E9C2AB10D552B80041A7F /* NSURLSession+AnyPromise.h */,
+				14665E78D0DA1F9FB8E3361F5CA29C5C /* NSURLSession+AnyPromise.m */,
+				8C376D3AACEC44B0DD39D043E1AF4517 /* NSURLSession+Promise.swift */,
+				CCF7FB823512721E75F2DB336028FE47 /* PMKFoundation.h */,
+				1C21368EF840BAF5DE98D975CC27227A /* Process+Promise.swift */,
+				14054B47B99992BAB5BC16B8CD984863 /* URLDataPromise.swift */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		F1D4E8E451E178ECF57B5BB3D59E3BDB /* Pods-WeatherPallaviTests */ = {
+			isa = PBXGroup;
+			children = (
+				97C710AF738EBBDF33F5DF721C84F59C /* Pods-WeatherPallaviTests.modulemap */,
+				2BBF19E25E039794DCF3AE34C3663AE2 /* Pods-WeatherPallaviTests-acknowledgements.markdown */,
+				CB131741803F8FB900244C3118B7F77E /* Pods-WeatherPallaviTests-acknowledgements.plist */,
+				624275B1F992CEB4F7EC137109C444C1 /* Pods-WeatherPallaviTests-dummy.m */,
+				3EA3E9DA0C544248908F41970FD4E076 /* Pods-WeatherPallaviTests-Info.plist */,
+				77C42EF5194FC1D00E46D3637BB3AB4F /* Pods-WeatherPallaviTests-umbrella.h */,
+				8E2869245F6A1FD4A7DF5BD8FA4789E3 /* Pods-WeatherPallaviTests.debug.xcconfig */,
+				0CBF7299234400B99808DCEB5B4EB376 /* Pods-WeatherPallaviTests.release.xcconfig */,
+			);
+			name = "Pods-WeatherPallaviTests";
+			path = "Target Support Files/Pods-WeatherPallaviTests";
+			sourceTree = "<group>";
+		};
+		F780851F4100943E32B856083B94072A /* CoreLocation */ = {
+			isa = PBXGroup;
+			children = (
+				497428C1D123D13EA523160C54C13969 /* CLGeocoder+AnyPromise.h */,
+				C559D4CA720E1C2CDEB9783DDF9C18A8 /* CLGeocoder+AnyPromise.m */,
+				B915365695DAB226A8F62BC0789342AF /* CLGeocoder+Promise.swift */,
+				F61EAC48E6A01295B725A44FDA8F443B /* CLLocationManager+AnyPromise.h */,
+				3BDD6A55F905F3B949942BE61F2EDB87 /* CLLocationManager+AnyPromise.m */,
+				0F6F746AC07F2DFB3DAA539BBA50EC97 /* CLLocationManager+Promise.swift */,
+				2A12684B28787AB3A317198B5742AF67 /* PMKCoreLocation.h */,
+			);
+			name = CoreLocation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D59CFF28BAAA39E500CAAA0C74F34A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				610173D608B5BC5B43ED59573196420D /* Pods-WeatherPallavi-WeatherPallaviUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A8B993B2C26C060AC776AC5AF2DA5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AD81CEEA74A4569C96C499D6FCDE926 /* AnyPromise.h in Headers */,
+				D7199DBCFCCA20BABF785D93143D89D2 /* CALayer+AnyPromise.h in Headers */,
+				120AA6606DA0041C6858E35C27D4E841 /* CLGeocoder+AnyPromise.h in Headers */,
+				A53EC5B959D831EFEF162EBB33886D11 /* CLLocationManager+AnyPromise.h in Headers */,
+				D2D8C810A03BF6DD4EFE93D104DC63C6 /* fwd.h in Headers */,
+				3F36F3C6F3609D035418F59382B8CA49 /* NSNotificationCenter+AnyPromise.h in Headers */,
+				635A531DD9EAD798E4A786BD15DCB521 /* NSTask+AnyPromise.h in Headers */,
+				50B52DB98967698D466A6C23F28A0C03 /* NSURLSession+AnyPromise.h in Headers */,
+				B7D2C4E62795E6F9A09E2CD7C388C008 /* PMKCoreLocation.h in Headers */,
+				0894A91005564736A40E3443FFDE0C03 /* PMKFoundation.h in Headers */,
+				CB3CFA1573B0FD975141C63783D426A8 /* PMKQuartzCore.h in Headers */,
+				C500368968CD816CA6020C743810C51E /* PMKUIKit.h in Headers */,
+				29B5DA04B6A38DF3D46E2DE5E8D06498 /* PromiseKit-umbrella.h in Headers */,
+				59CB3164A00F2B801BE515A55489366A /* PromiseKit.h in Headers */,
+				1CF39BA6159B5B76B5DD55734EDCFEC2 /* UIView+AnyPromise.h in Headers */,
+				9BBE1F0E0C8B26D13963F4438718AB46 /* UIViewController+AnyPromise.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2661C6AE9454BD0CC0D445B8C5C4FFB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F63F53EF46490E923E21807BBE11D049 /* Pods-WeatherPallaviTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8C6A149CC364C906105D5C918A0CD1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66D18944E57602765B6571B0BFC9630F /* JGProgressHUD-Defines.h in Headers */,
+				ADA198C3D2C208F0D5BBBF072DFEC584 /* JGProgressHUD-umbrella.h in Headers */,
+				F5B406F0A6E0392B5F51A59D88C594DA /* JGProgressHUD.h in Headers */,
+				4B5147E79EE68FD189494DD609B57F31 /* JGProgressHUDAnimation.h in Headers */,
+				96C369664F04EBEAB41792B9250C6E96 /* JGProgressHUDErrorIndicatorView.h in Headers */,
+				FB7D6EA6C6016E2AFDA2F2A407DCF746 /* JGProgressHUDFadeAnimation.h in Headers */,
+				784B9ED449B3D447C7D6A8DB82F6B5C1 /* JGProgressHUDFadeZoomAnimation.h in Headers */,
+				BE98AD8BAF63F6688828ECDE0FC4325B /* JGProgressHUDImageIndicatorView.h in Headers */,
+				515F81B04F69C306053F5C827D2A22D4 /* JGProgressHUDIndeterminateIndicatorView.h in Headers */,
+				00C101BB5B71CA1B24DE64756F5B82D8 /* JGProgressHUDIndicatorView.h in Headers */,
+				C169504EDF56EBD6D3A797E3C2E2E473 /* JGProgressHUDPieIndicatorView.h in Headers */,
+				CA343F72E2F6A79D393FC28F3035B14C /* JGProgressHUDRingIndicatorView.h in Headers */,
+				FC7A80288ED7128A94FD3D27F8FF73EE /* JGProgressHUDShadow.h in Headers */,
+				D57EB484EEF7DDBFE73BB8FD3F2F6BDC /* JGProgressHUDSuccessIndicatorView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E38489B7D206FB61CF7A6E16AE695F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5EAABD186A943AB72CFEA056DEF1649 /* Pods-WeatherPallavi-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6F3964F174D0EBFB0D64F8DBC20E1429 /* JGProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C053E87AE4FCCF4B415A6BADCFC7249B /* Build configuration list for PBXNativeTarget "JGProgressHUD" */;
+			buildPhases = (
+				4F8C6A149CC364C906105D5C918A0CD1 /* Headers */,
+				BEC632E598E7718C12CC9D8494186336 /* Sources */,
+				3E5AFF22D0ADA09309E18F2879F4ED60 /* Frameworks */,
+				A538CC081EB0812B3CDE54C52CA7EE75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JGProgressHUD;
+			productName = JGProgressHUD;
+			productReference = 7FBAFAA66E9C7401884F439AE8BC662C /* JGProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C579CE66A1E7A9AA33CA5F97F9C22C5 /* PromiseKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65A6C2ABF25A41E182C148DA6A09A76 /* Build configuration list for PBXNativeTarget "PromiseKit" */;
+			buildPhases = (
+				11A8B993B2C26C060AC776AC5AF2DA5A /* Headers */,
+				7CEAE5505F9C507FA651DCC0E2940D16 /* Sources */,
+				2AAB5D5C69208F5F66B87DC20566F44C /* Frameworks */,
+				D7A71A2129D36E903D7AB90ECD04E55E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PromiseKit;
+			productName = PromiseKit;
+			productReference = 002B1E88BA14EBF633CD66EBFBA107E9 /* PromiseKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		83A9D254A201DF35F6884535A97151BF /* Pods-WeatherPallavi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D2D78D66D78207A61ABE666FB44951 /* Build configuration list for PBXNativeTarget "Pods-WeatherPallavi" */;
+			buildPhases = (
+				A4E38489B7D206FB61CF7A6E16AE695F /* Headers */,
+				E727AFC210F0584D8545F2B584817A8C /* Sources */,
+				46F4C4B4AE9FD4482CD9E00190B4D99C /* Frameworks */,
+				BA9F9976BCC4A712EA7DC2FD8161F802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1045B9F092EA28D3D7A9B9C56FC9E326 /* PBXTargetDependency */,
+				414992D9C1A842EBBD53947D7DE8FB4F /* PBXTargetDependency */,
+			);
+			name = "Pods-WeatherPallavi";
+			productName = "Pods-WeatherPallavi";
+			productReference = 2E1A29F652980C81CA2A60B0BDEC114C /* Pods_WeatherPallavi.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C8B4EE6A014824F0A37C11361168F91C /* Pods-WeatherPallavi-WeatherPallaviUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 240086BA3AC60A23BF5AB5B17E6E4F31 /* Build configuration list for PBXNativeTarget "Pods-WeatherPallavi-WeatherPallaviUITests" */;
+			buildPhases = (
+				0D59CFF28BAAA39E500CAAA0C74F34A7 /* Headers */,
+				52B19AB00C4677FB6D4390058A7246F8 /* Sources */,
+				944A644BC94DFD4F70238E172264C1EB /* Frameworks */,
+				1244D29296765D39A418A5A3FF9F84C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19C6F0A9620A66390A927C1A5B45BE2D /* PBXTargetDependency */,
+				8B3B1A75DB6221EF4D88E8236781880E /* PBXTargetDependency */,
+			);
+			name = "Pods-WeatherPallavi-WeatherPallaviUITests";
+			productName = "Pods-WeatherPallavi-WeatherPallaviUITests";
+			productReference = 51D2E5C1A654CB6509FA1CD77702D949 /* Pods_WeatherPallavi_WeatherPallaviUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF9873D8A849204FDFE7F6A76AC5D18F /* Pods-WeatherPallaviTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15DE50325BC09E7A616404390BC2730C /* Build configuration list for PBXNativeTarget "Pods-WeatherPallaviTests" */;
+			buildPhases = (
+				2661C6AE9454BD0CC0D445B8C5C4FFB6 /* Headers */,
+				619E994F63CF57E65AEF2F0DCF654879 /* Sources */,
+				EF4827A0284DFA0E4756149F6B20E133 /* Frameworks */,
+				F920063DC38A5E45C51F7AADC7CAB54E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B82C5FA7D8BABE48C499A968DDD635C /* PBXTargetDependency */,
+			);
+			name = "Pods-WeatherPallaviTests";
+			productName = "Pods-WeatherPallaviTests";
+			productReference = 500C12C77C44E01FA72C032C1BA116B4 /* Pods_WeatherPallaviTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1230;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7E9D3F0CC81D4379FF416694BC2778EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F3964F174D0EBFB0D64F8DBC20E1429 /* JGProgressHUD */,
+				83A9D254A201DF35F6884535A97151BF /* Pods-WeatherPallavi */,
+				C8B4EE6A014824F0A37C11361168F91C /* Pods-WeatherPallavi-WeatherPallaviUITests */,
+				DF9873D8A849204FDFE7F6A76AC5D18F /* Pods-WeatherPallaviTests */,
+				7C579CE66A1E7A9AA33CA5F97F9C22C5 /* PromiseKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1244D29296765D39A418A5A3FF9F84C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A538CC081EB0812B3CDE54C52CA7EE75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA9F9976BCC4A712EA7DC2FD8161F802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A71A2129D36E903D7AB90ECD04E55E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F920063DC38A5E45C51F7AADC7CAB54E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52B19AB00C4677FB6D4390058A7246F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B41AD3E999B51554844F8D70B500F9 /* Pods-WeatherPallavi-WeatherPallaviUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		619E994F63CF57E65AEF2F0DCF654879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A52E9E3E7064349FFAB2DD7B909CD7 /* Pods-WeatherPallaviTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEAE5505F9C507FA651DCC0E2940D16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B644E5A5CC720A4D311EEFF48E0BD7 /* after.m in Sources */,
+				DE19FFA7DE260414BA537667EA88E262 /* after.swift in Sources */,
+				0B9C0E5300270BEBCCA5BBE39E754D34 /* afterlife.swift in Sources */,
+				FB2AC73B1959D3D8085118F0A1C618DB /* AnyPromise.m in Sources */,
+				24E08445DAE4E8D543F395D4A0E081A2 /* AnyPromise.swift in Sources */,
+				39AD838C6621D6E4C37506858FC04231 /* CALayer+AnyPromise.m in Sources */,
+				65C85777E0E2A5C97D60B74590ECE455 /* CLGeocoder+AnyPromise.m in Sources */,
+				023811621155C9FF1D8C8C2D2AF00FA6 /* CLGeocoder+Promise.swift in Sources */,
+				5EC611C8B9CFFA9BE7FDC15EBA2D93FA /* CLLocationManager+AnyPromise.m in Sources */,
+				4E09E5CF35918825CC74DDADAD4C8EBB /* CLLocationManager+Promise.swift in Sources */,
+				1BEF049684E762255F32BF246A6BE072 /* dispatch_promise.m in Sources */,
+				AC398F106EB052640E4E6E3678A7AE27 /* DispatchQueue+Promise.swift in Sources */,
+				1B04E258B87F8D16FB039A117CA40B37 /* Error.swift in Sources */,
+				DC7A5DF73CBF05B8F9248D0EDC24354D /* GlobalState.m in Sources */,
+				F17207DAC4954DBD2562CD573E41A79D /* hang.m in Sources */,
+				113361ACAC68E7E0CCF3C9AC1A2DB9C8 /* join.m in Sources */,
+				B3CAE09894CFA04774A8E628D59ADB58 /* join.swift in Sources */,
+				50A5FD1873434C8D7CD17C68E8F87A1E /* NSNotificationCenter+AnyPromise.m in Sources */,
+				F73DCE372A37682AE33702CC0EC47EC7 /* NSNotificationCenter+Promise.swift in Sources */,
+				C0E8713CF93AECD0B000D55FAE752345 /* NSObject+Promise.swift in Sources */,
+				A3DC8F195C450630179C05F28B3B2BD0 /* NSTask+AnyPromise.m in Sources */,
+				F126C1C36EB93C1EAC21BC68F4941E95 /* NSURLSession+AnyPromise.m in Sources */,
+				FF0AE275F6867F2AEB7D16ECBD567984 /* NSURLSession+Promise.swift in Sources */,
+				D9D38E286DCEC87D05BA9ACB3D20EF4C /* PMKAlertController.swift in Sources */,
+				76BE1602EE79AEEE05B68F6E4855BBDC /* Process+Promise.swift in Sources */,
+				6BD904AFF251CC5DB707C22326E4D91E /* Promise+AnyPromise.swift in Sources */,
+				B1228302CD5D1FC4078A56071FB63BE7 /* Promise+Properties.swift in Sources */,
+				F83723922F84532963E0726C1E4FAE6F /* Promise.swift in Sources */,
+				6ACEE8D9E8777C70A24DBDDDF1EC1D84 /* PromiseKit-dummy.m in Sources */,
+				9E0977765B5F1FC63EDA949D7E15CE04 /* race.swift in Sources */,
+				5840089C00D06322174F9A3DD983AA6B /* State.swift in Sources */,
+				CB4C8D5C86ACF441DAD945D8F14AFA62 /* UIView+AnyPromise.m in Sources */,
+				BBEAC69F4BA3524C57596AD8A44E182C /* UIView+Promise.swift in Sources */,
+				213AAC8DC815259BC83713C84C41780B /* UIViewController+AnyPromise.m in Sources */,
+				C3F2D9A7AA50BEB84AA419E9DD13A144 /* UIViewController+Promise.swift in Sources */,
+				E7AEE1B06F0C80CD8D41A337BCA7F0ED /* URLDataPromise.swift in Sources */,
+				66BF69DE479094C35B54BB00B2181F59 /* when.m in Sources */,
+				FF3A0F37DC38E002BB64FBE17F9A23AE /* when.swift in Sources */,
+				D078BE56C74F21151D8B532998B766DD /* wrap.swift in Sources */,
+				F8FF83A2A080FBF9CF167C5B16A4CA9C /* Zalgo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC632E598E7718C12CC9D8494186336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99A1378F4758867783A9F5F8519CFAFC /* JGProgressHUD-dummy.m in Sources */,
+				0DCCE84DF2E5C1E8ED3903A04E476D8D /* JGProgressHUD.m in Sources */,
+				083B5CFA58A3339BDF6D6DC3A0507DEA /* JGProgressHUDAnimation.m in Sources */,
+				33E9E0ED94A4081E696295F83DD2D9C7 /* JGProgressHUDErrorIndicatorView.m in Sources */,
+				8E2CB0ED9A07AE57055399DEDBC27B87 /* JGProgressHUDFadeAnimation.m in Sources */,
+				040AD92907B972B42FFD4B6174887B34 /* JGProgressHUDFadeZoomAnimation.m in Sources */,
+				3EB1E8171A8E2E15A7B0AFF2095210F7 /* JGProgressHUDImageIndicatorView.m in Sources */,
+				5C78BE7864470C1E2BA20C5CBD81B9D7 /* JGProgressHUDIndeterminateIndicatorView.m in Sources */,
+				A5B8DA90893EAE4E3C805B684A53182E /* JGProgressHUDIndicatorView.m in Sources */,
+				A0128FB8A04711277900964B8220F2D9 /* JGProgressHUDPieIndicatorView.m in Sources */,
+				812150E28251B383E29ADE04BC481D44 /* JGProgressHUDRingIndicatorView.m in Sources */,
+				2834DA992389D0AFB77DAC86AC0CA540 /* JGProgressHUDShadow.m in Sources */,
+				18CF94C361B05399BC6E83328DFF96DF /* JGProgressHUDSuccessIndicatorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E727AFC210F0584D8545F2B584817A8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C535F529E44B1ABDF49FC3B524FCF6 /* Pods-WeatherPallavi-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1045B9F092EA28D3D7A9B9C56FC9E326 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JGProgressHUD;
+			target = 6F3964F174D0EBFB0D64F8DBC20E1429 /* JGProgressHUD */;
+			targetProxy = B8D391D489FD7E816F663DB28F2707D2 /* PBXContainerItemProxy */;
+		};
+		19C6F0A9620A66390A927C1A5B45BE2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JGProgressHUD;
+			target = 6F3964F174D0EBFB0D64F8DBC20E1429 /* JGProgressHUD */;
+			targetProxy = A80C1E9C8695AD7F7D9FC2EBFB6B03E7 /* PBXContainerItemProxy */;
+		};
+		2B82C5FA7D8BABE48C499A968DDD635C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WeatherPallavi";
+			target = 83A9D254A201DF35F6884535A97151BF /* Pods-WeatherPallavi */;
+			targetProxy = 77936164431C01261DB33BCFDCA973E3 /* PBXContainerItemProxy */;
+		};
+		414992D9C1A842EBBD53947D7DE8FB4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PromiseKit;
+			target = 7C579CE66A1E7A9AA33CA5F97F9C22C5 /* PromiseKit */;
+			targetProxy = E59089EE4D7CE7C3ADF542431514CDE4 /* PBXContainerItemProxy */;
+		};
+		8B3B1A75DB6221EF4D88E8236781880E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PromiseKit;
+			target = 7C579CE66A1E7A9AA33CA5F97F9C22C5 /* PromiseKit */;
+			targetProxy = D275C4B99349067B93F2D0D3C10C2AF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		125C51B0F88E28C868DC90BD45E4E727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		281216F5C8B85E408826E50A8F7286C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E2869245F6A1FD4A7DF5BD8FA4789E3 /* Pods-WeatherPallaviTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherPallaviTests/Pods-WeatherPallaviTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherPallaviTests/Pods-WeatherPallaviTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63948F904B3A3CAC3E96C1CF9B02C60F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93EA523F4C8611C76731B3D4B4A0EC5B /* Pods-WeatherPallavi.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherPallavi/Pods-WeatherPallavi-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherPallavi/Pods-WeatherPallavi.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92A3E9AC052A7345115439021B218E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9895F258FD680198B33C1118DCA4838B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A76B04325DC0EB72D29E4012F3059298 /* PromiseKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PromiseKit/PromiseKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PromiseKit/PromiseKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PromiseKit/PromiseKit.modulemap";
+				PRODUCT_MODULE_NAME = PromiseKit;
+				PRODUCT_NAME = PromiseKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B1069C0333CFA7EBEDF6DF836B7EB994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9362601E85455DD57FEC76840FAB5060 /* Pods-WeatherPallavi-WeatherPallaviUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherPallavi-WeatherPallaviUITests/Pods-WeatherPallavi-WeatherPallaviUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherPallavi-WeatherPallaviUITests/Pods-WeatherPallavi-WeatherPallaviUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C06E34199973D76DEB3BDD983254FE74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB9095CBFF0F9B73F2D3E8A8732A3CBC /* PromiseKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PromiseKit/PromiseKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PromiseKit/PromiseKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PromiseKit/PromiseKit.modulemap";
+				PRODUCT_MODULE_NAME = PromiseKit;
+				PRODUCT_NAME = PromiseKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C21013879B2B0FB3D3F945B65133B8BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68B994EEE6676A805E05CCD86EA3B7B1 /* Pods-WeatherPallavi.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherPallavi/Pods-WeatherPallavi-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherPallavi/Pods-WeatherPallavi.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D01CA8C816B98776E11D939D2663187B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CBF7299234400B99808DCEB5B4EB376 /* Pods-WeatherPallaviTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherPallaviTests/Pods-WeatherPallaviTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherPallaviTests/Pods-WeatherPallaviTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC3DF3585B46B3B4F23A0BA623055A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEB14AA9AB4265B5CA149A69FDF754FF /* Pods-WeatherPallavi-WeatherPallaviUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeatherPallavi-WeatherPallaviUITests/Pods-WeatherPallavi-WeatherPallaviUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeatherPallavi-WeatherPallaviUITests/Pods-WeatherPallavi-WeatherPallaviUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F9ACD33DF7DD4BFDF4DF7AC7B3B9349F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B106CCD6777BB613C9756B075DB7EC2 /* JGProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JGProgressHUD/JGProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JGProgressHUD/JGProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JGProgressHUD/JGProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = JGProgressHUD;
+				PRODUCT_NAME = JGProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FBD0AE802EF1EBB03C68AE7DF1CD35B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FC9B82F62999475D569AEA0758BD2C5 /* JGProgressHUD.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JGProgressHUD/JGProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JGProgressHUD/JGProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JGProgressHUD/JGProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = JGProgressHUD;
+				PRODUCT_NAME = JGProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03D2D78D66D78207A61ABE666FB44951 /* Build configuration list for PBXNativeTarget "Pods-WeatherPallavi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21013879B2B0FB3D3F945B65133B8BB /* Debug */,
+				63948F904B3A3CAC3E96C1CF9B02C60F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15DE50325BC09E7A616404390BC2730C /* Build configuration list for PBXNativeTarget "Pods-WeatherPallaviTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281216F5C8B85E408826E50A8F7286C1 /* Debug */,
+				D01CA8C816B98776E11D939D2663187B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		240086BA3AC60A23BF5AB5B17E6E4F31 /* Build configuration list for PBXNativeTarget "Pods-WeatherPallavi-WeatherPallaviUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3DF3585B46B3B4F23A0BA623055A17 /* Debug */,
+				B1069C0333CFA7EBEDF6DF836B7EB994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125C51B0F88E28C868DC90BD45E4E727 /* Debug */,
+				92A3E9AC052A7345115439021B218E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C053E87AE4FCCF4B415A6BADCFC7249B /* Build configuration list for PBXNativeTarget "JGProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9ACD33DF7DD4BFDF4DF7AC7B3B9349F /* Debug */,
+				FBD0AE802EF1EBB03C68AE7DF1CD35B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C65A6C2ABF25A41E182C148DA6A09A76 /* Build configuration list for PBXNativeTarget "PromiseKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C06E34199973D76DEB3BDD983254FE74 /* Debug */,
+				9895F258FD680198B33C1118DCA4838B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
